@@ -1,0 +1,163 @@
+.Component3-container{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    background-color: #ffeee3;
+    height: 100%;
+}
+
+.Component3-header{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.Component3-text-orange{
+    color: #ec6c34;
+}
+
+.Components3-icon-container1{
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Component3-icon{
+    height: 140px;
+    width: 140px;
+}
+
+.Components3-icon-containers{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 350;
+    color: rgb(117, 117, 117);
+}
+
+.Components3-bottom-content{
+    padding-top: 20px;
+    font-size: 1.4rem;
+}
+
+/* Add this code to make the component responsive */
+
+/* For screens with a maximum width of 1200px */
+@media only screen and (max-width: 1200px) {
+    .Component3-container {
+      padding-top: 25px;
+      padding-bottom: 35px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+    .Component3-header {
+      font-size: 2.2rem;
+    }
+    .Components3-icon-container1 {
+      padding-left: 80px;
+      padding-right: 80px;
+      gap: 70px;
+    }
+    .Component3-icon {
+      height: 120px;
+      width: 120px;
+    }
+    .Components3-icon-containers {
+      font-size: 1.3rem;
+    }
+    .Components3-bottom-content {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 992px */
+  @media only screen and (max-width: 992px) {
+    .Component3-container {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .Component3-header {
+      font-size: 2rem;
+    }
+    .Components3-icon-container1 {
+      padding-left: 60px;
+      padding-right: 60px;
+      gap: 50px;
+    }
+    .Component3-icon {
+      height: 100px;
+      width: 100px;
+    }
+    .Components3-icon-containers {
+      font-size: 1.2rem;
+    }
+    .Components3-bottom-content {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .Component3-container {
+      padding-top: 15px;
+      padding-bottom: 25px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .Component3-header {
+      font-size: 1.8rem;
+    }
+    .Components3-icon-container1 {
+      padding-left: 40px;
+      padding-right: 40px;
+      gap: 30px;
+    }
+    .Component3-icon {
+      height: 80px;
+      width: 80px;
+    }
+    .Components3-icon-containers {
+      font-size: 1.1rem;
+    }
+    .Components3-bottom-content {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media only screen and (max-width: 480px) {
+    .Component3-container {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .Component3-header {
+      font-size: 1.5rem;
+    }
+    .Components3-icon-container1 {
+      padding-left: 20px;
+      padding-right: 20px;
+      gap: 20px;
+    }
+    .Component3-icon {
+      height: 60px;
+      width: 60px;
+    }
+    .Components3-icon-containers {
+      font-size: 1rem;
+    }
+    .Components3-bottom-content {
+      font-size: 1rem;
+    }
+  }

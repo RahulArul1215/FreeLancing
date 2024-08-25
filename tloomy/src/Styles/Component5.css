@@ -1,0 +1,155 @@
+.Component5-container {
+    background-color: #ffeee3;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Component5-header {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5rem;
+    font-weight: 500;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.Component5-text-back {
+    background-color: #f7c844;
+    padding: 3px;
+}
+
+.Component5-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Component5-subheader-line {
+    height: 2px;
+    width: 300px;
+    background-color: #ec6c34;
+}
+
+.Component5-subheader-text {
+    font-size: 1.5rem;
+}
+
+.Component5-content1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+.Component5-advantage-container {
+    margin-top: 40px;
+}
+
+.Component5-advantages-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Component5-advantages-1-line-1 {
+    height: 380px;
+    width: 1px;
+    background-color: gray;
+}
+
+.Component5-advantages-1-line-1-1{
+    height: 380px;
+    width: 1px;
+    background-color: gray;
+}
+
+.Component5-advantages-straight-line {
+    width: 1200px;
+    height: 1px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+/* Responsive Styles for Component5 */
+
+@media (max-width: 1200px) {
+    .Component5-header {
+        font-size: 2rem;
+    }
+
+    .Component5-subheader-text {
+        font-size: 1.3rem;
+    }
+
+    .Component5-content1 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .Component5-advantages-1-line-1-1{
+        display: none;
+    }
+
+    .Component5-advantages-1-line-1{
+        display: none;
+    }
+
+    .Component5-advantages-straight-line{
+        display: none;
+    }
+}
+
+@media (max-width: 1210px) {
+
+}
+
+@media (max-width: 768px) {
+    .Component5-header {
+        font-size: 1.8rem;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .Component5-subheader {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Component5-subheader-line {
+        width: 200px;
+    }
+
+    .Component5-content1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .Component5-header {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .Component5-subheader-text {
+        font-size: 1rem;
+    }
+
+    .Component5-content1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1rem;
+    }
+}

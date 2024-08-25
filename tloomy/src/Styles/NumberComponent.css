@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+.NumberComponent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffeee3;
+    height: 250px;
+    width: 280px;
+    border-bottom: 3.5px solid #ec6c34;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.NumberComponent-icon{
+    background-color: #ec6c34;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.NumberComponent-content{
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.NumberComponent-number{
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .NumberComponent-container {
+        height: 220px;
+        width: 240px;
+        margin-bottom: 20px;
+    }
+
+    .NumberComponent-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .NumberComponent-content {
+        font-size: 1.3rem;
+    }
+
+    .NumberComponent-number {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .NumberComponent-container {
+        height: 200px;
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .NumberComponent-icon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .NumberComponent-content {
+        font-size: 1.2rem;
+    }
+
+    .NumberComponent-number {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .NumberComponent-container {
+        height: 180px;
+        width: 200px;
+    }
+
+    .NumberComponent-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .NumberComponent-content {
+        font-size: 1rem;
+    }
+
+    .NumberComponent-number {
+        font-size: 1.8rem;
+    }
+}

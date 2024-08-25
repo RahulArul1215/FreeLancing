@@ -1,0 +1,104 @@
+.Footer-container{
+    background-color: black;
+    height: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+.Footer-container-2{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    background-color: rgb(187, 180, 180);
+    height: 40px;
+    width: 100%;
+}
+
+.Footer-header-yellow{
+    padding: 4px;
+    font-size: 1.5rem;
+    font-weight:600;
+    background-color: #f7c844;
+}
+
+.Footer-content{
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* Add this code to make the component responsive */
+
+/* For screens with a maximum width of 1200px */
+@media only screen and (max-width: 1200px) {
+    .Footer-container {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .Footer-container-2 {
+      padding-left: 27%;
+    }
+  }
+  
+  /* For screens with a maximum width of 992px */
+  @media only screen and (max-width: 992px) {
+    .Footer-container {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .Footer-container-2 {
+      padding-left: 27%;
+    }
+    .Footer-header-yellow {
+      font-size: 1.2rem;
+    }
+    .Footer-content {
+      font-size: 1rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .Footer-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      height: 100%;
+      flex-direction: column;
+      align-items:center;
+      text-align:center;
+      gap: 20px;
+    }
+    .Footer-container-2 {
+      padding-left: 27%;
+    }
+    .Footer-header-yellow {
+      font-size: 1rem;
+    }
+    .Footer-content {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media only screen and (max-width: 480px) {
+    .Footer-container {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .Footer-container-2 {
+      padding-left: 27%;
+    }
+    .Footer-header-yellow {
+      font-size: 0.8rem;
+    }
+    .Footer-content {
+      font-size: 0.7rem;
+    }
+  }
