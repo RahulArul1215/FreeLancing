@@ -1,0 +1,91 @@
+.Advantages-container {
+    height: 360px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Advantages-icon {
+    height: 120px;
+    width: 120px;
+}
+
+.Advantages-header {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.Advantages-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+}
+
+/* Responsive Styles for Advantages */
+
+@media (max-width: 1200px) {
+    .Advantages-container {
+        height: auto;
+        width: 300px;
+    }
+
+    .Advantages-icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    .Advantages-header {
+        font-size: 1.3rem;
+    }
+
+    .Advantages-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Advantages-container {
+        width: 250px;
+    }
+
+    .Advantages-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .Advantages-header {
+        font-size: 1.2rem;
+    }
+
+    .Advantages-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Advantages-container {
+        width: 200px;
+    }
+
+    .Advantages-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .Advantages-header {
+        font-size: 1rem;
+    }
+
+    .Advantages-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,103 @@
+.AddressComponent-container{
+    height: 250px; 
+    width: 300px;  
+    margin-bottom: 10px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.AddressComponent-header{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.AddressComponent-icon{
+    height: 110px;
+    width: 110px;
+}
+
+.AddressComponent-content{
+    font-size: 1.2rem;
+    font-weight:350;
+}
+
+/* Add this code to make the component responsive */
+
+/* For screens with a maximum width of 1200px */
+@media only screen and (max-width: 1200px) {
+    .AddressComponent-container {
+      height: 220px;
+      width: 280px;
+      margin-bottom: 10px;
+    }
+    .AddressComponent-header {
+      font-size: 1.7rem;
+    }
+    .AddressComponent-icon {
+      height: 100px;
+      width: 100px;
+    }
+    .AddressComponent-content {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 992px */
+  @media only screen and (max-width: 992px) {
+    .AddressComponent-container {
+      height: 200px;
+      width: 250px;
+      margin-bottom: 10px;
+    }
+    .AddressComponent-header {
+      font-size: 1.6rem;
+    }
+    .AddressComponent-icon {
+      height: 90px;
+      width: 90px;
+    }
+    .AddressComponent-content {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .AddressComponent-container {
+      height: 180px;
+      width: 220px;
+      margin-bottom: 10px;
+    }
+    .AddressComponent-header {
+      font-size: 1.5rem;
+    }
+    .AddressComponent-icon {
+      height: 80px;
+      width: 80px;
+    }
+    .AddressComponent-content {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* For screens with a maximum width of 480px */
+  @media only screen and (max-width: 480px) {
+    .AddressComponent-container {
+      height: 150px;
+      width: 180px;
+    }
+    .AddressComponent-header {
+      font-size: 1.3rem;
+    }
+    .AddressComponent-icon {
+      height: 60px;
+      width: 60px;
+    }
+    .AddressComponent-content {
+      font-size: 1.1rem;
+    }
+  }
