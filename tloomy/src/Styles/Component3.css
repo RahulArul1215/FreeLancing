@@ -1,0 +1,124 @@
+.Component3-container {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background-color: #fce1e1;
+  height: auto;
+}
+
+.Component3-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.Component3-text-orange {
+  color: #960039;
+}
+
+.Components3-icon-container1 {
+  padding-top: 20px;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 items per row */
+}
+
+.Components3-icon-containers {
+  font-size: 1.4rem;
+  font-weight: 350;
+  color: rgb(117, 117, 117);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Component3-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.Components3-bottom-content {
+  padding-top: 20px;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  /* For tablets or medium screens, 3 items per row */
+  .Components3-icon-container1 {
+    gap: 50px;
+      grid-template-columns: repeat(4, 1fr); /* 3 items per row */
+  }
+
+  .Components3-bottom-content {
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    font-size: 1.2rem; /* Reduced font size */
+}
+}
+
+@media (max-width: 768px) {
+  /* For small screens, 3 items per row */
+  .Components3-icon-container1 {
+    gap: 40px;
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  }
+
+  .Components3-bottom-content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10spx;
+    text-align: center;
+    font-size: 1.2rem; /* Reduced font size */
+}
+}
+
+@media (max-width: 480px) {
+
+  /* For extra small screens, 2 items per row */
+  .Components3-icon-container1 {
+      grid-template-columns: repeat(3, 1fr);/* 2 items per row */
+  }
+
+  .Component3-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+      gap: 15px; /* Reduced gap for smaller screens */
+  }
+
+  .Component3-header {
+      font-size: 1.5rem;
+      padding-bottom: 6px; /* Reduced padding */
+  }
+
+  .Components3-icon-containers {
+      font-size: 1rem; /* Reduced font size */
+      gap: 6px; /* Reduced gap */
+  }
+
+  .Component3-icon {
+      height: 80px; /* Reduced size */
+      width: 80px; /* Reduced size */
+  }
+
+  .Components3-bottom-content {
+      padding-top: 10px;
+      padding-left: 35px;
+      padding-right: 35px;
+      text-align: center;
+      font-size: 1rem; /* Reduced font size */
+  }
+}

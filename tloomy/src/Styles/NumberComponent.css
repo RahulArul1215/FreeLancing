@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+.NumberComponent-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151b4b;
+    height: 210px;
+    width: 240px;
+    border-bottom: 2px solid #960039;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.NumberComponent-icon {
+    background-color: #960039;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.NumberComponent-content {
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.NumberComponent-number {
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.NumberComponent-icon-picture {
+    height: 40px;
+    width: 40px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .NumberComponent-container {
+        height: 180px;
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .NumberComponent-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .NumberComponent-content {
+        font-size: 1.2rem;
+    }
+
+    .NumberComponent-number {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .NumberComponent-container {
+        gap: 2px;
+        height: 130px;
+        width: 140px;
+        margin-top: 10px;
+    }
+
+    .NumberComponent-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .NumberComponent-content {
+        font-size: 0.9rem;
+    }
+
+    .NumberComponent-number {
+        font-size: 1.2rem;
+    }
+
+    .NumberComponent-icon-picture {
+        height: 30px;
+        width: 30px;
+    }
+}

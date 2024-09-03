@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dune+Rise&display=swap');
+
+.Components1-container {
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    /* background-color: #fff5ee; */
+    background: linear-gradient(to right, #8B0045, #900039, #720008);
+    z-index: 1;
+    padding: 20px; /* Added padding for better spacing on smaller screens */
+}
+
+.Components1-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    line-height: 1.1;
+}
+
+.Components1-content {
+    font-family: 'Montserrat', sans-serif;
+    color: #3d3d3d;
+    font-size: 1.3rem;
+    font-weight:100;
+    color: white;
+
+    text-align: left;
+}
+
+.Components1-button1, .Components1-button2 {
+    padding: 15px 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Components1-button1 {
+    font-family: 'Poppins';
+    background-color: #ffffff; 
+    font-weight: 700;
+    color: #720008;
+}
+
+
+.Components1-button2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+}
+
+
+.Components1-picture {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.Components1-buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* For large devices (desktops, 1024px and above) */
+@media (min-width: 1024px) {
+    .Components1-container{
+        padding: 90px;
+    }
+
+    .Components1-header{
+        max-width: 1000px;
+    }
+
+    .Components1-button2:hover {
+        background-color: #ffffff; 
+        color: #720008;
+    }
+
+    .Components1-button1:hover {
+        background-color: transparent;
+        border: solid 1px #ffffff;
+        color: #ffffff;
+    }
+    
+}
+
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+    .Components1-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Components1-header {
+        padding-top: 10px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .Components1-content {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .Components1-picture {
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .Components1-buttons-container {
+        justify-content: center;
+    }
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+    
+    .Components1-container{
+        height: 550px;
+    }
+
+    .Components1-header {
+        font-size: 2.8rem;
+        text-align: left;
+    }
+    
+    .Components1-content {
+        margin-top: 30px;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .Components1-picture {
+        /* margin-top: 20px;
+        height: 250px;
+        width: 250px; */
+        display: none;
+    }
+
+    .Components1-button1, .Components1-button2 {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    .Components1-buttons-container{
+        justify-content: left;
+    }
+}
