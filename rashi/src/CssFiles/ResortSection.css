@@ -1,0 +1,132 @@
+.Resort-Container{
+    margin-top: -50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.Heading-placer{
+
+    margin-left: 100px;
+    display: flex;
+    align-items: start;
+}
+.Heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(0, 0, 118);
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.ResortCard{
+    min-width: 300px; /* Set a minimum width for each card */
+    margin-right: 30px;
+    background-color: rgb(221, 170, 0);
+    border-radius: 50px;
+}
+.ResortCard2{
+    min-width: 300px; /* Set a minimum width for each card */
+    margin-right: 30px;
+    background-color: rgb(47, 90, 0);
+    border-radius: 50px;
+}
+.ResortCard3{
+    min-width: 300px; /* Set a minimum width for each card */
+    margin-right: 30px;
+    background-color: rgb(0, 79, 124);
+    border-radius: 50px;
+}
+.ResortCard4{
+    min-width: 300px; /* Set a minimum width for each card */
+    margin-right: 30px;
+    background-color: rgb(212, 0, 21);
+    border-radius: 50px;
+}
+
+/* .Card-content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: -20px;
+    justify-items: left;
+    margin-left: 30px;
+} */
+.Card-content {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    text-align: center; /* Center-align the text */
+    justify-content: left;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .Card-title {
+    font-size: 1.5rem; /* Adjust size for title */
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff; /* A dark color for better contrast */
+  }
+  
+  .Card-location {
+    font-size: 1rem; /* Slightly smaller font for the location */
+    margin-top: 5px;
+    color: #000000; /* A lighter shade for location */
+    font-weight: bolder;
+  }
+
+
+    @media (max-width: 1024px) {
+
+        .card-container{
+            margin-left: 70px;
+        }
+        .Heading{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-left: -80px;
+            color: rgb(0, 0, 118);
+        }
+        .ResortCard{
+            padding-right: 30px;
+            margin-right: 20px;
+        }
+        
+        .ResortCard2{
+            margin-right: 20px;
+        }
+        .ResortCard3{
+            margin-right: 20px;
+        }
+    }   
+    @media (max-width: 480px) {
+
+        .card-container{
+            margin-left: 40px;
+        }
+        .Heading{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-left: -80px;
+            color: rgb(0, 0, 118);
+        }
+        .ResortCard{
+            margin-right: 20px;
+        }
+        .ResortCard2{
+            margin-right: 20px;
+        }
+        .ResortCard3{
+            margin-right: 20px;
+        }
+    }   

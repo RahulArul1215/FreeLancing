@@ -1,0 +1,171 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.counter-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.counter-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 1500px; 
+    background-color: rgb(223, 223, 223);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Counter-content-box{
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+.h1-blue{
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+    font-size: 2.2rem;
+}
+.h1-green{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+    font-size: 2.2rem;
+}
+.h1-orange{
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-size: 2.2rem;
+}
+.h1-yellow{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 226, 0);
+    font-size: 2.2rem;
+}
+.h2-subhead{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    font-weight:600;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px; /* Add padding to create spacing on smaller screens */
+}
+
+.counter-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 1500px; /* Set a maximum width for larger screens */
+    background-color: rgb(223, 223, 223);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+.Counter-content-box {
+    margin: 10px 50px; /* Reduce margin to ensure flexibility */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 200px; /* Allow each box to take up equal space and wrap */
+}
+
+/* Font styles */
+.h1-blue, .h1-green, .h1-orange, .h1-yellow {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem; /* Slightly reduced base size */
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.h1-blue {
+    color: blue;
+}
+
+.h1-green {
+    color: green;
+}
+
+.h1-orange {
+    color: orange;
+}
+
+.h1-yellow {
+    color: rgb(226, 226, 0);
+}
+
+.h2-subhead {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .counter-box {
+        height: auto; /* Allow the height to adjust dynamically */
+    }
+
+    .Counter-content-box {
+        margin: 5px 10px; /* Reduce side margins */
+        height: auto; /* Let the height adjust based on content */
+    }
+
+    .h1-blue, .h1-green, .h1-orange, .h1-yellow {
+        font-size: 2rem; /* Slightly reduce font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .counter-box {
+        /* padding: 20px; */
+        height: auto;
+    }
+
+    .Counter-content-box {
+        flex-basis: 45%; /* Allow two boxes in a row */
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+    .h1-blue, .h1-green, .h1-orange, .h1-yellow {
+        font-size: 2rem; /* Reduce font size further */
+    }
+}
+@media (max-width: 480px) {
+    .counter-box {
+        padding: 10px;
+    }
+
+    .Counter-content-box {
+        flex-basis: 45%; /* Two boxes in a row for mobile */
+        margin: 10px 5px; /* Reduce margins for better fit */
+        height: auto;
+        text-align: center;
+    }
+
+    .h1-blue, .h1-green, .h1-orange, .h1-yellow {
+        font-size: 2rem; /* Further reduce font size for readability */
+    }
+    .h2-subhead{
+        font-size: 1rem;
+        color: rgb(45, 45, 45);
+    }
+}

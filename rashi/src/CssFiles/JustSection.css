@@ -1,0 +1,163 @@
+.membershipholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JSBackground{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    border-radius: 40px;
+    max-height: 600px;
+    flex-wrap: wrap;
+}
+.justsectionContents{
+    margin-left: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 10px;
+    /* background-color: rgb(245, 245, 245); */
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+.JSheading1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(2, 2, 84);
+    font-size: 2.7rem;
+}
+.JSheading2{
+    margin-top: -70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(5, 84, 2);
+    font-size: 4rem;
+}
+.JSContent1{
+    margin-top: -50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    width: 460px;
+}
+.JSContent2{
+    margin-top: -10px;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    width: 460px;
+}
+.justSectionImage{
+    margin-left:-200px;
+    z-index: 999;
+    margin-top: -70px;
+    margin-right: -230px;
+}
+.JSButton{
+    padding: 10px;
+    background-color: rgb(255, 166, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.Atmcards{
+    width: 1200px;
+    height: auto;
+    border-radius: 5px;
+}
+@media (max-width: 1200px) {
+    .JSBackground{
+        padding: 20px;
+    }
+    .JSheading1{
+        font-size: 2.5rem;
+    }
+    .JSheading2{
+        margin-top: -60px;
+        font-size: 3.6rem;
+    }
+    .Atmcards{
+        width: 800px;
+        z-index: 1000;
+    }
+    .justsectionContents{
+        margin-left: 20px;
+    }
+    .JSContent1{
+        font-size: 1rem;
+        max-width: 400px;
+    }
+    .JSContent2{
+        max-width: 400px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .membershipholder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .JSheading1{
+        font-size: 2.5rem;
+    }
+    .JSheading2{
+        margin-top: -60px;
+        font-size: 3.6rem;
+    }
+    .Atmcards{
+        margin-left: 40px;
+        width: 400px;
+        z-index: 1000;
+    }
+    .justsectionContents{
+        margin-left: -10px;
+    }
+    .JSContent1{
+        font-size: 1rem;
+        max-width: 400px;
+    }
+    .JSContent2{
+        max-width: 400px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .membershipholder{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .JSheading1{
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+    .JSheading2{
+        margin-top: -50px;
+        font-size: 2.5rem;
+    }
+    .justSectionImage{
+    }
+    .Atmcards{
+        width: 290px;
+        z-index: 1000;
+    }
+    .justsectionContents{
+        margin-left: -10px;
+    }
+    .JSContent1{
+        font-size: 1rem;
+        max-width: 300px;
+    }
+    .JSContent2{
+        max-width: 300px;
+        font-size: 1rem;
+    }
+}
